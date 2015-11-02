@@ -22,9 +22,9 @@ a:hover {
 }
 
 .form {
-  background: rgba(19, 35, 47, 0.9);
+  background: rgba(19,35,47,1);
   padding: 40px;
-  max-width: 600px;
+  max-width: 1400px;
   margin: 40px auto;
   border-radius: 4px;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
@@ -32,7 +32,7 @@ a:hover {
 
 .tab-group {
   list-style: none;
-  padding: 0;
+  padding: 40;
   margin: 0 0 40px 0;
 }
 .tab-group:after {
@@ -44,9 +44,13 @@ a:hover {
   display: block;
   text-decoration: none;
   padding: 15px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
   background: rgba(160, 179, 176, 0.25);
   color: #a0b3b0;
-  font-size: 15px;
+  font-size: 25px;
   float: left;
   width: 20%;
   text-align: center;
@@ -75,7 +79,7 @@ h1 {
 }
 
 label {
-  position: absolute;
+  /* position: absolute; */
   -webkit-transform: translateY(6px);
       -ms-transform: translateY(6px);
           transform: translateY(6px);
